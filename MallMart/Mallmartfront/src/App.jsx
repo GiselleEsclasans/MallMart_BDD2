@@ -1,11 +1,14 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Navbarlogout from './components/Navbarlogout/Navbarlogout'
 
 const App = () => {
   return (
-    <h1 className="text-3xl text-naranjaunimet underline">
-    Hello world!
-  </h1>
-  )
+    <>
+    <Navbar />
+    <Navbarlogout />
+    </>
+  ) 
 }
 
 export default App

@@ -16,6 +16,7 @@ export default {
         violetaclaro: "#4c1a55",
         rojoapagado: "#a93c51",
         rojoencendido: "#d54544",
+        azulmorado: "#332556"
       },
       fontFamily: {
         robotoRegular:['Regular'],
