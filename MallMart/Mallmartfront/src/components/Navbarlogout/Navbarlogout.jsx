@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center p-4 bg-azulmorado shadow-md">
       <div className='logo'>
-        <h1 className='text-white text-2xl'>Mallmart</h1>
+      <img src="/Logoblanco.png" alt="Logo" className='h-8' />
       </div>
       <div className="flex space-x-4">
         <button className="bg-naranjaclaro text-white px-4 py-2 rounded hover:bg-morarosa">

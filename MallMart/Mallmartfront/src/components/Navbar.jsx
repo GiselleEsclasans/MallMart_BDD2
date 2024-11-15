@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='bg-azulmorado flex justify-between items-center p-4'>
       <div className='logo'>
-        <h1 className='text-white text-2xl'>Mallmart</h1>
+      <img src="/Logonaranja.png" alt="Logo" className='h-8' />
       </div>
       <div className='flex items-center'>
         <div className='user mr-4'>
