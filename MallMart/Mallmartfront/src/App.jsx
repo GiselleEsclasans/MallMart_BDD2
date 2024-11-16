@@ -5,8 +5,8 @@ import Navbarlogout from './components/Navbarlogout/Navbarlogout'
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Navbarlogout />
+    
+    
     </>
   ) 
 }
