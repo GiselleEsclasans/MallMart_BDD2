@@ -10,9 +10,9 @@ const Navbar = () => {
       <div className='flex items-center'>
         <div className='user mr-4'>
           <FaUser  className='text-white text-2xl' />
-        </div>
-        <div className='cart'>
+          <div className='cart'>
           <FaShoppingCart className='text-white text-2xl' />
+        </div>
         </div>
       </div>
     </div>
