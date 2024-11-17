@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaShoppingCart, FaUser  } from 'react-icons/fa'; // Importing shopping cart and user icons from react-icons
 import { Link } from 'react-router-dom';
-const Navbar = () => {
+const Profilecard = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-violetaoscuro to-rojoencendido flex items-center justify-center">
             <div className="bg-white rounded-lg shadow-lg p-20 w-full max-w-6xl relative"> 
@@ -28,4 +28,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default Profilecard;
