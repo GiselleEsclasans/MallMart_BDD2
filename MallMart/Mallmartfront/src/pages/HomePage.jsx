@@ -9,6 +9,7 @@ import logo from '../img/foto.png';
 import { Link } from 'react-router-dom';
 import Miniproductcard from '../components/miniproductcard';
 import Mediumproductcard from '../components/mediumproductcard';
+import Rightmediumproductcard from '../components/rightmediumproductcard';
 
 
 function HomePage() {
@@ -44,11 +45,7 @@ function HomePage() {
                     </div>
                     
                 </div>
-                <div className='Ad w-1/2 bg-gradient-to-t from-naranjaunimet to-rojoapagado p-10 rounded-tl-3xl flex-col'>
-                    <div className='bg-white box-border h-1/2  w-full p-4 mb-3 rounded-2xl'></div>
-                    <div className='bg-white box-border h-1/2  w-full p-4 mb-3 rounded-2xl'></div>
-                   
-                </div>
+            <Rightmediumproductcard />
                 
             </div>
             <Categoryfooter />
