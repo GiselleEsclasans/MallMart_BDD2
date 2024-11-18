@@ -3,15 +3,19 @@ import { FaShoppingCart, FaUser  } from 'react-icons/fa'; // Importing shopping 
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
+    
     <div className='bg-azulmorado flex justify-between items-center p-4'>
+      {/* Navbar */}
       <div className='logo'>
         <Link onClick={() => {scroll(0, 0)}} to="/">
         <img src="/Logonaranja.png" alt="Logo" className='h-8' />
         </Link>
       </div>
       <div className='flex items-center'>
-        <div className='user flex items-center mr-4'> {/* Added flex here */}
-          <FaUser  className='text-white text-xl mr-2' /> {/* Added margin to the right */}
+        <div className='user flex items-center mr-4'> 
+          {/* Foto del usuario */}
+          <FaUser  className='text-white text-xl mr-2' /> 
+          {/* Foto carrito */}
           <FaShoppingCart className='text-white text-2xl' />
         </div>
       </div>

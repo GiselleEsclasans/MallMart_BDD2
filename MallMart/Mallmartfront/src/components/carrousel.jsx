@@ -3,6 +3,7 @@ import logo from '../img/foto.png';
 const Carrousel = () => {
   return (
     <div className='MallMart bg-gradient-to-t from-moradooscuro to-purple-950'>
+        {/*Carrousel*/}
                 <div id="indicators-carousel" className="relative w-full" data-carousel="static">
                     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                         <div className="hidden duration-700 ease-in-out" data-carousel-item="active">

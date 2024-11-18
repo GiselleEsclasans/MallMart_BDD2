@@ -4,8 +4,11 @@ import { Link } from 'react-router-dom';
 import logo from '../img/foto.png';
 const Mediumproductcard = () => {
   return (
+    
     <Link onClick={() => {scroll(0, 0)}} to="/productos">
+        {/* Tarjeta mediana del producto */}
                         <div className="w-30  bg-white border border-gray-200 rounded-lg  dark:bg-rose-300 m-5 border-b-4 border-b-rojoapagado shadow-lg">
+                            {/* Foto del producto */}
                             <a href="#">
                                 <img className="p-8 rounded-t-lg" src={logo} alt="product image" />
                             </a>
@@ -33,8 +36,10 @@ const Mediumproductcard = () => {
                                         <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-rojoapagado dark:text-white ms-3">5.0</span>
                                     </div>
                                     <div className="flex items-center justify-between">
+                                        {/* Precio del producto */}
                                         <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
                                         <Link onClick={() => {scroll(0, 0)}} to="/carrito">
+                                        {/* Boton de agregar al carrito */}
                                         <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-rojoapagado dark:hover:bg-rojoencendido dark:focus:bg-moradoclaro">Add to cart</a>
                                         </Link>
                                     </div>
